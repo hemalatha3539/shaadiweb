@@ -1,0 +1,468 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.maincontainer {
+  width: 1500px;
+  height: 4000px;
+  /* border: 2px solid black; */
+}
+.container-1 {
+  width: 1500px;
+  height: 600px;
+  /* border: 2px solid rgb(128, 88, 88); */
+  position: relative;
+}
+.image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  position: relative;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.414);
+  margin-left: 210px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.drop-1 {
+  width: 130px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: bolder;
+  background-color: bisque;
+  color: black;
+  border: none;
+  border: 8px;
+  margin: 30px 20px;
+}
+.drop-2 {
+  width: 120px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: bolder;
+  background-color: rgb(102, 179, 209);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin: 30px 20px;
+}
+.drop-2:hover {
+  width: 120px;
+  height: 40px;
+  font-size: 17px;
+  font-weight: bolder;
+  background-color: coral;
+  color: black;
+  border: none;
+  border: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 30px 20px;
+}
+.logo {
+  margin-left: 150px;
+  margin-top: 40px;
+  position: absolute;
+  top: 0;
+}
+.data {
+  color: bisque;
+  margin: 5;
+}
+.credentials {
+  margin-left: 1190px;
+  margin-top: 40px;
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+.logo-1 {
+  margin: 20px 20px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  cursor: pointer;
+}
+.logo-2 {
+  margin: 20px 20px;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  cursor: pointer;
+}
+.container-2 {
+  width: 1500px;
+  height: 600px;
+  /* border: 2px solid rgb(128, 88, 88); */
+  /* background-color: rgb(197, 89, 89); */
+  /* display: flex; */
+  padding-top: 70px;
+}
+.cont-1 {
+  width: 170px;
+  height: 140px;
+  background-color: rgb(22, 127, 169);
+  margin: 30px 30px;
+  color: bisque;
+  padding-top: 30px;
+  align-items: center;
+  border-radius: 50%;
+  margin: 20px 110px;
+
+}
+.cont-2 {
+  width: 170px;
+  height: 140px;
+  background-color: rgb(22, 127, 169);
+  margin: 30px 30px;
+  color: bisque;
+  margin-top: -80px;
+  padding-top: 30px;
+  align-items: center;
+  border-radius: 50%;
+  margin: 20px 110px;
+}
+.cont-3 {
+  width: 170px;
+  height: 140px;
+  background-color: rgb(22, 127, 169);
+  margin: 30px 30px;
+  color: bisque;
+  padding-top: 30px;
+  align-items: center;
+  border-radius: 50%;
+  margin: 20px 110px;
+
+}
+.text{
+  color: rgb(251, 251, 251);
+  /* background-color: aquamarine; */
+  margin-left: 410px;
+  margin-top: 290px;
+  position: absolute;
+  top: 0;
+}
+.child{
+  margin-left: 70px;
+}
+.mobile-img{
+  width: 500px;
+  height: 400px;
+  margin-left: 250px;
+  margin-top: 70px;
+ 
+}
+.logo-shadi{
+  width: 350px;
+  height: 70px;
+  margin-left: 60px;
+}
+.content{
+  /* background-color: blue; */
+  margin-left: 130px;
+  margin-top: 70px;
+}
+.txt-logo{
+  margin: 0;
+  color: gray;
+  font-size: 27px;
+  margin-left: 30px;
+}
+.txt-logo-2{
+  margin: 0;
+  color: gray;
+  font-size: 27px;
+  margin-left: 80px;
+}
+.data-bottom{
+  border-top: 2px solid brown;
+  margin-top: 30px;
+  width: 190px;
+  margin-left: 120px;
+}
+.social-media{
+  display: flex;
+  margin-left: -60px;
+  margin-top: -20px;
+}
+.txt-bottom{
+  color: gray;
+  font-size: 20px;
+  margin-left: -40px;
+  width: 350px;
+}
+.social-ico{
+  margin: 20px 20px;
+  cursor: pointer;
+}
+.heading{
+  width: 1000px;
+}
+.container-flex{
+  display: flex;
+}
+.top-heading{
+  /* background-color: aqua; */
+  margin-left: 450px;
+  font-size: 23px;
+  color: brown;
+}
+.dii{
+  margin: 0;
+}
+.dis-flex{
+  display: flex;
+  /* background-color: bisque; */
+  padding: 150px;
+  padding-top: -300px;
+
+}
+.container-3{
+  width: 1500px;
+  height: 500px;
+  padding-top: 200px;
+  background-color: rgb(168, 189, 189);
+  /* border: 2px solid rgb(128, 88, 88); */
+  /* background-color: blueviolet; */
+  
+}
+.ico{
+  color: white;
+  font-size: 70px;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.btn-small{
+  width: 50px ;
+  height: 50px;
+  padding: 6px 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: brown;
+  border-radius: 50%;
+
+}
+.btn-cont-2{
+  /* background-color: blue; */
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.singup{
+  color: rgb(0, 119, 255);
+  width: 350px;
+  /* background-color: blueviolet; */
+}
+.sign{
+  font-size: 33px;
+  color:rgb(22, 127, 169);
+  margin-left: 30px;
+  cursor: pointer;
+  /* margin: 0; */
+
+}
+.pera{
+  margin-left: -80px;
+  color: gray;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bolder;
+  /* margin: 0; */
+}
+.pera-2{
+  margin-left: -50px;
+  color: gray;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bolder;
+  /* margin: 0; */
+}
+.special{
+  /* background-color: rgb(166, 125, 125); */
+  margin-left: 430px;
+  color: brown;
+  margin-top: -190px;
+  font-size: 22px;
+  
+}
+.container-4{
+  width: 1500px;
+  height: 760px;
+  /* border: 2px solid rgb(128, 88, 88); */
+  /* background-color: aqua; */
+  
+}
+.card-container{
+  /* background-color: blue; */
+  padding: 10px 10px;
+  margin-top:20px;
+  padding-top: 30px;
+
+  
+ 
+}
+.card{
+  width: 330px;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 40px;
+  text-decoration: none;
+  background: #e0e0e0;
+  box-shadow:  9px 9px 22px #bebebe,
+               -9px -9px 22px #ffffff;
+}
+.card:hover{
+  width: 330px;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  border-radius: 3px;
+  text-decoration: none;
+  margin: 0 40px;
+  transform: scale(1.1);
+  cursor: pointer;
+  background: #e0e0e0;
+  box-shadow:  9px 9px 22px #bebebe,
+               -9px -9px 22px #ffffff;
+}
+
+.card-image{
+  width: 330px;
+ height: 200px;
+}
+.couplecontainer{
+  /* background-color: blueviolet; */
+  padding: 10px 10px;
+  /* margin: -5px; */
+}
+.couple{
+margin: 0;
+font-size: 30px;
+text-decoration: none;
+text-transform: none;
+color: black;
+}
+.coupledata{
+margin: 2px;
+color:gray;
+
+text-decoration: none;
+}
+.scroller{
+  /* background-color: burlywood; */
+  display: flex;
+  overflow-x: auto;
+  margin: 30px 70px;
+  padding: 40px;
+}
+.scroller::-webkit-scrollbar{
+  display: none;
+}
+.real{
+  margin-left: 350px;
+  font-size: 33px;
+  color: rgb(227, 102, 102);
+}
+.container-5{
+  width: 1500px;
+  height: 860px;
+  /* border: 2px solid rgb(128, 88, 88); */
+}
+.footer-1{
+  width: 1500px;
+  height: 110px;
+  display: flex;
+  background-color: rgb(172, 64, 64);
+}
+.footer-btn{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 70px;
+  margin-top: 20px;
+  background-color: rgb(172, 64, 64);
+  border: 2px solid white;
+}
+.footer-btn:hover{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: rgb(55, 140, 173);
+  background-color: white;
+  border: 2px solid white;
+}
+.f-text{
+  margin-left: 300px;
+  color: white;
+}
+.footer-text{
+  width: 1500px;
+  height: 610px;
+  /* background-color: cadetblue; */
+}
+.footer-title{
+  margin-left: 470px;
+  font-size: 35px;
+  color: rgb(227, 102, 102);
+}
+.inner-footer{
+  display: flex;
+}
+.languahe{
+  /* background-color: burlywood; */
+  margin: 50px 50px;
+  padding: 20px;
+}
+.bengali{
+  margin-left: 90px;
+  /* margin: 0; */
+  
+  margin-bottom: 20px;
+ 
+}
+.bengali-1{
+  margin-left: 90px;
+  border-top: 1px solid gray;
+  width: 350px;
+  margin: 0;
+  color: grey;
+  
+}
+.bengali-2{
+  margin-left: 70px;
+  margin: 0;
+  color: grey;
+}
+.bengali-3{
+  margin-left: 90px;
+  /* margin: 0; */
+  color: rgb(66, 139, 169);
+}
+.final-footer{
+  /* background-color: blue; */
+  margin-left: 470px;
+}
+.dropp{
+  margin-left: -20px;
+  border: none;
+  background-color: rgba(92, 90, 90, 0.118);
+}
+.form{
+  width: 500px;
+  height: 600px;
+  background-color: black;
+}
